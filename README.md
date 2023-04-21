@@ -144,12 +144,10 @@ Enter the URL `http://localhost:5000/api/shorten.`
 In the Headers tab, add a new header with Content-Type as key and application/json as value.
 In the Body tab, select raw and enter the request body as JSON:
 
-`{
 
-  "longUrl": "URL to be shortened"
-}
-`
 
+ `{ "longUrl": "URL to be shortened" }`
+<br>
 * Click on the Send button to send the request and get the response.
 
 2. Retrieve long URL:
