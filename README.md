@@ -78,10 +78,10 @@ Body:
 * Status: 400 Bad Request if URL is invalid or not starting with https
 Body:
 
-{
+`{
   "message": "Invalid URL, Please Enter Valid URL",
   "longUrl": "original URL"
-}
+}`
 
 > Status: 201 Created if URL already exists in the database
 Body:
@@ -145,6 +145,7 @@ In the Headers tab, add a new header with Content-Type as key and application/js
 In the Body tab, select raw and enter the request body as JSON:
 
 `{
+
   "longUrl": "URL to be shortened"
 }
 `
